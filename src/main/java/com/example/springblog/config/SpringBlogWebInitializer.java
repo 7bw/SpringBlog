@@ -1,6 +1,8 @@
 package com.example.springblog.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
+import com.example.springblog.web.WebConfig;
+
 
 public class SpringBlogWebInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
     @Override
