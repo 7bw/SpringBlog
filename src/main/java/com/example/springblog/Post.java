@@ -1,7 +1,7 @@
 package com.example.springblog;
 
-import org.apache.commons.lang3.builder.EqualsBuilder;
-import org.apache.commons.lang3.builder.HashCodeBuilder;
+//import org.apache.commons.lang3.builder.EqualsBuilder;
+//import org.apache.commons.lang3.builder.HashCodeBuilder;
 
 import java.util.Date;
 
@@ -45,6 +45,7 @@ public class Post {
         return longitude;
     }
 
+    /*
     @Override
     public boolean equals(Object that){
         return EqualsBuilder.reflectionEquals(this, that, "id", "time");
@@ -54,5 +55,5 @@ public class Post {
     public int hashCode(){
         return HashCodeBuilder.reflectionHashCode(this, "id", "time");
     }
-
+    */
 }
