@@ -21,7 +21,7 @@ import static org.springframework.test.web.servlet.setup.MockMvcBuilders.standal
 public class PostControllerTest {
 
     @Test
-    public void houldShowRecentSpittles() throws Exception {
+    public void shouldShowRecentPosts() throws Exception {
         List<Post> expectedPosts = createPostList(20);
         PostRepository mockRepository = mock(PostRepository.class);
         when(mockRepository.findPosts(Long.MAX_VALUE, 20))
