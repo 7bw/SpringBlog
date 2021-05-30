@@ -9,6 +9,9 @@ import static org.springframework.web.bind.annotation.RequestMethod.GET;
 @RequestMapping("/user")
 public class UserController {
 
+    private UserRepository userRepository;
+
+
     @RequestMapping(value="/register", method=GET)
     public String showRegistrationForm(){
         return "registerForm";
