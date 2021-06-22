@@ -27,4 +27,10 @@ public class WebConfig extends WebMvcConfigurerAdapter{
     public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
         configurer.enable();
     }
+
+    @Override
+    public void addResourceHandlers(ResourceHandlerRegistry registry) {
+    // TODO Auto-generated method stub
+    super.addResourceHandlers(registry);
+  }
 }
