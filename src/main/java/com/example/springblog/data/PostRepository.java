@@ -9,4 +9,10 @@ import java.util.List;
 public interface PostRepository {
 
     List<Post> findPosts(long max, int count);
+
+    List<Post> findRecentPosts();
+
+    Post findOne(long id);
+
+    void save(Post post);
 }
